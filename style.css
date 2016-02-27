@@ -1,0 +1,122 @@
+.button { font-family: "discourse-narrow-shadow",sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          border-radius: 50%;
+}
+/*
+.star { height: 10px;
+       width: 10px;
+       border: 2px solid #000;
+       margin:; 5px;
+       display: inline-block;
+       border-radius: 50%;
+       padding:15px;
+       display:inline-block;
+       color: red;
+}
+*/
+.star { width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 red;
+}
+
+
+.numbersselected {}
+td {
+	border: 18px solid red;
+	background-color: #FF0D11;
+	margin-left:50%;
+	border-radius: 50%;
+	display: inline-block;
+}
+tr { background-color: #5B4BFF;
+                  
+                  
+}
+
+.number {     background-color:#0F7ABF;
+	          border-radius:50%;
+	          border:6px;
+	          height: 40px;
+	          width: 40px;
+
+
+}
+
+tr:first-child { padding-right:15px; }
+* { }
+
+/*
+	<div class="stars"></div>
+	<div class="stars"></div>
+	<div class="stars"></div>
+	<div class="stars"></div>
+	<div class="stars"></div>
+	<div class="stars"></div>
+	<div class="stars"></div>
+	<div class="stars"></div>
+	<div class="stars"></div>
+.star {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid red;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.star:before {
+   border-bottom: 80px solid red;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+.star:after {
+   position: absolute;
+   display: block;
+   color: red;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid red;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+*/
+
+.cup { height: 10px;
+       width: 10px;
+       border: 2px solid #000;
+       margin 5px;
+       display: inline-block;
+       border-radius: 50%;
+       padding:15px;
+       display:inline-block;
+       color: red;
+
+
+}
