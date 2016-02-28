@@ -6,6 +6,7 @@ var theTotal = 0;
 function init(){
   $('#addStars').on('click', addStars);
   $('.number').on('click', computeTotal);
+  $('#reset').on('click', reset);
   
   
  
